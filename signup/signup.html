@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=decvice-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./signup.html">Sign Up</a>
+      <a href="../signin/signin.html">Sign In</a>
+    </nav>
+    <div class="split-screen">
+      <div class="left">
+        <img src="new-entries-animate.svg" class="left-login-image" />
+      </div>
+      <!--<div class="login-container">
+              <p>
+                Already have an account?
+                <a href="#"> <strong>Log In</strong></a>
+              </p>
+            </div>-->
+      <div class="right">
+        <form>
+          <section class="copy">
+            <h2>Sign Up</h2>
+          </section>
+          <div class="input-container name">
+            <label for="Name">Name</label>
+            <input id="Name" name="Name" type="text" />
+          </div>
+          <div class="input-container email">
+            <label for="Email">Email</label>
+            <input id="Email" name="Email" type="Email" />
+          </div>
+          <div class="input-container password">
+            <label for="Password">Password</label>
+            <input id="Password" name="Password" type="Password" />
+            <!--<i class="fa fa-eye-slash"></i>-->
+          </div>
+          <!--<div class="input-container cta">
+            <label class="checkbox-container">
+              <input type="checkbox" />
+              <span class="checkbox">Sign up for email updates.</span>
+            </label>-->
+          <button id="signup" type="submit">Sign Up</button>
+          <!--<section class="copy legal">
+            <p>
+              <span class="small"
+                >By Continuing, you agree to accept our <br />
+                <a href="#">Privacy Policy</a> &amp;
+                <a href="#">Terms of Services</a>.</span
+              >
+            </p>
+          </section>-->
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./signup.js"></script>
+</html>
